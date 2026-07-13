@@ -1,0 +1,21 @@
+class Main {
+    public static void main(String[] args) {
+
+        int a=10;
+        int b=5;
+        System.out.println("Are you ready to guess the answers");
+
+        System.out.println("Uninary Operator is"+(a++));
+        System.out.println("Uninary Operator is"+(++b));
+        System.out.println("Binary Operator is");
+        System.out.println("1+2 " +1+2);
+        System.out.println("1+2 " +(1+2));
+        System.out.println(1+2 +" =3");
+
+        int increment = ++a * b++;
+        System.out.println(increment);
+        System.out.println("Ternary Operator is");
+        int largestNumber=(a>b)?a:b;
+        System.out.println("Largest of 2 numbers is "+largestNumber);
+    }
+}
